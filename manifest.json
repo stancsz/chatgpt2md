@@ -1,0 +1,11 @@
+{
+  "name": "ChatGPT2MD",
+  "description": "ChatGPT-to-Markdown Downloader: Converts ChatGPT conversations to markdown with ease. Download, store, and collaborate on beautifully formatted files effortlessly. Simplify your workflow today.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "chatgpt2md.js"
+  },
+  "action": {}
+}
