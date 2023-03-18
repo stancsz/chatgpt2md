@@ -20,11 +20,11 @@ function h(html) {
   let t = "";
   for (const s of e) {
     if (s.querySelector(".whitespace-pre-wrap")) {
-      t += `**${s.querySelector('img') ? 'USER' : 'SYSTEM'}**: ${h(s.querySelector(".whitespace-pre-wrap").innerHTML)}\n\n`;
+      t += `${s.querySelector('img') ? 'user' : 'assistant'}: ${h(s.querySelector(".whitespace-pre-wrap").innerHTML)}\n\n`;
     }
   }
   const o = document.createElement("a");
-  o.download = "ChatGPT-2-md.md";
+  o.download = "chatgpt2md.md";
   o.href = URL.createObjectURL(new Blob([t]));
   o.style.display = "none";
   document.body.appendChild(o);
