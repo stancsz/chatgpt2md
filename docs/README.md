@@ -9,7 +9,7 @@ The ChatGPT-to-Markdown Downloader is a tool that converts ChatGPT conversations
  
 
 # Usage
-![img.png](img.png)
+![img_1.png](img1.png)
 
 click the ChatGPT2MD icon to download your current chat thread. 
-![img_1.png](img2.png)
+![img2.png](img2.png)
